@@ -98,7 +98,6 @@ function createUser() {
     localStorage.setItem("bankdetails",JSON.stringify(Bank))
     document.getElementById("User_btn").classList.add("hidden")
     document.getElementById("User_btn").style.color="white"
-   
-
-
+    document.getElementById("login-btn").style.display = "block";
+        
 }
